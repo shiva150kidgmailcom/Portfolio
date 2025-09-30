@@ -7,8 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold animate-fade-in">
-            <span className="text-muted-foreground">show</span>
-            <span className="text-foreground">casy.</span>
+            <span className="text-foreground">D Shivakumar</span>
           </div>
           
           <div className="flex items-center gap-4">

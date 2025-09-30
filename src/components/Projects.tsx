@@ -6,24 +6,24 @@ import brandcraftImage from "@/assets/project-brandcraft.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "Sportly",
-      date: "May 5, 2023",
-      description: "Website Redesign: Improving user experience and modernizing design.",
-      tags: ["UI/UX", "Branding"],
+      title: "E-Commerce Platform",
+      date: "January 2024",
+      description: "Full-stack application with Spring Boot backend and React frontend, featuring secure payment integration and real-time inventory management.",
+      tags: ["Java", "Spring Boot", "React"],
       imageSrc: sportlyImage,
     },
     {
-      title: "TechFlow",
-      date: "June 12, 2023",
-      description: "Mobile App Design: Creating intuitive interfaces for productivity.",
-      tags: ["Mobile App", "UI/UX"],
+      title: "Task Management System",
+      date: "March 2024",
+      description: "RESTful API-driven task tracker with role-based authentication, allowing teams to collaborate and track project progress efficiently.",
+      tags: ["Java", "MySQL", "REST API"],
       imageSrc: techflowImage,
     },
     {
-      title: "BrandCraft",
-      date: "July 20, 2023",
-      description: "Brand Identity: Developing cohesive visual language and guidelines.",
-      tags: ["Branding"],
+      title: "Social Media Dashboard",
+      date: "May 2024",
+      description: "Modern web application with responsive design, JWT authentication, and real-time notifications using WebSocket technology.",
+      tags: ["Spring Boot", "React", "WebSocket"],
       imageSrc: brandcraftImage,
     },
   ];

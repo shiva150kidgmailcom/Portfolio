@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm text-muted-foreground">
-            © 2024 showcasy. All rights reserved.
+            © 2024 D Shivakumar. All rights reserved.
           </div>
           <div className="flex gap-8 text-sm">
             <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">

@@ -7,12 +7,12 @@ const Contact = () => {
       <div className="container mx-auto max-w-4xl text-center">
         <div className="animate-fade-up">
           <h2 className="text-6xl md:text-7xl font-bold mb-8">
-            Let's create something
+            Let's build something
             <br />
-            <span className="gradient-text">amazing together</span>
+            <span className="gradient-text">great together</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can bring your vision to life.
+            I'm always open to discussing new projects, opportunities, or partnerships. Feel free to reach out!
           </p>
           <Button variant="outline" size="lg" className="mb-16">
             <Mail className="w-5 h-5" />
