@@ -21,21 +21,21 @@ const Header = () => {
                 <Menu className="w-5 h-5" />
               </Button>
             </SheetTrigger>
-            <SheetContent>
-              <nav className="flex flex-col gap-6 mt-8">
-                <a href="#home" className="text-2xl font-medium hover:text-primary transition-colors">
+            <SheetContent side="top" className="h-full flex items-center justify-center">
+              <nav className="flex flex-col gap-8 items-center">
+                <a href="#home" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   Home
                 </a>
-                <a href="#projects" className="text-2xl font-medium hover:text-primary transition-colors">
+                <a href="#projects" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   Projects
                 </a>
-                <a href="#skills" className="text-2xl font-medium hover:text-primary transition-colors">
+                <a href="#skills" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   Technical Skills
                 </a>
-                <a href="#about" className="text-2xl font-medium hover:text-primary transition-colors">
+                <a href="#about" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   About Me
                 </a>
-                <a href="#contact" className="text-2xl font-medium hover:text-primary transition-colors">
+                <a href="#contact" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   Get in Touch
                 </a>
               </nav>
