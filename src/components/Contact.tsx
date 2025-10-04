@@ -9,7 +9,7 @@ const Contact = () => {
           <h2 className="text-6xl md:text-7xl font-bold mb-8">
             Let's build something
             <br />
-            <span className="gradient-text">great together</span>
+            <span className="gold-text">great together</span>
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
             I'm always open to discussing new projects, opportunities, or partnerships. Feel free to reach out!

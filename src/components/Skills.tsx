@@ -23,7 +23,7 @@ const Skills = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="animate-fade-up">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 md:mb-16 text-center">
-            Technical <span className="gradient-text">Skills</span>
+            Technical <span className="gold-text">Skills</span>
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">

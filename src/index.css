@@ -39,6 +39,7 @@ All colors MUST be HSL.
     --radius: 2rem;
     
     --gradient-text: linear-gradient(135deg, hsl(0 0% 5%), hsl(0 0% 60%));
+    --gold: 45 100% 60%;
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 0 0% 98%;
@@ -86,6 +87,8 @@ All colors MUST be HSL.
     --border: 0 0% 20%;
     --input: 0 0% 20%;
     --ring: 0 0% 80%;
+    
+    --gold: 45 100% 65%;
   }
 }
 
@@ -110,6 +113,10 @@ All colors MUST be HSL.
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+  }
+  
+  .gold-text {
+    color: hsl(var(--gold));
   }
   
   .animate-fade-up {

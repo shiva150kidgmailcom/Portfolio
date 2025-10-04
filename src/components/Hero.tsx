@@ -10,7 +10,7 @@ const Hero = () => {
             <span className="block animate-fade-up" style={{ animationDelay: '0.3s' }}>
               Engineer &
             </span>
-            <span className="block gradient-text animate-fade-up" style={{ animationDelay: '0.4s' }}>
+            <span className="block gold-text animate-fade-up" style={{ animationDelay: '0.4s' }}>
               Problem Solver
             </span>
           </h1>
