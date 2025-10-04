@@ -11,6 +11,8 @@ const Projects = () => {
       description: "Full-stack application with Spring Boot backend and React frontend, featuring secure payment integration and real-time inventory management.",
       tags: ["Java", "Spring Boot", "React"],
       imageSrc: sportlyImage,
+      githubLink: "https://github.com/shiva150kidgmailcom",
+      liveLink: "https://github.com/shiva150kidgmailcom",
     },
     {
       title: "Task Management System",
@@ -18,6 +20,8 @@ const Projects = () => {
       description: "RESTful API-driven task tracker with role-based authentication, allowing teams to collaborate and track project progress efficiently.",
       tags: ["Java", "MySQL", "REST API"],
       imageSrc: techflowImage,
+      githubLink: "https://github.com/shiva150kidgmailcom",
+      liveLink: "https://github.com/shiva150kidgmailcom",
     },
     {
       title: "Social Media Dashboard",
@@ -25,6 +29,8 @@ const Projects = () => {
       description: "Modern web application with responsive design, JWT authentication, and real-time notifications using WebSocket technology.",
       tags: ["Spring Boot", "React", "WebSocket"],
       imageSrc: brandcraftImage,
+      githubLink: "https://github.com/shiva150kidgmailcom",
+      liveLink: "https://github.com/shiva150kidgmailcom",
     },
   ];
 

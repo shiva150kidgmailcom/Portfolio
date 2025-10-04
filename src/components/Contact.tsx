@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github, Twitter } from "lucide-react";
+import { Mail, Linkedin, Github } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -14,20 +14,28 @@ const Contact = () => {
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
             I'm always open to discussing new projects, opportunities, or partnerships. Feel free to reach out!
           </p>
-          <Button variant="outline" size="lg" className="mb-16">
-            <Mail className="w-5 h-5" />
-            Get in Touch
+          <Button variant="outline" size="lg" className="mb-16" asChild>
+            <a href="mailto:dshivakumar2026@gmail.com">
+              <Mail className="w-5 h-5" />
+              Get in Touch
+            </a>
           </Button>
           
           <div className="flex justify-center gap-6 pt-8">
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-              <Linkedin className="w-5 h-5" />
+            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+              <a href="https://www.linkedin.com/in/shivakumar-d-1bb856253" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <Linkedin className="w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-              <Github className="w-5 h-5" />
+            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+              <a href="https://github.com/shiva150kidgmailcom" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <Github className="w-5 h-5" />
+              </a>
             </Button>
-            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform">
-              <Twitter className="w-5 h-5" />
+            <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
+              <a href="mailto:dshivakumar2026@gmail.com" aria-label="Email">
+                <Mail className="w-5 h-5" />
+              </a>
             </Button>
           </div>
         </div>
