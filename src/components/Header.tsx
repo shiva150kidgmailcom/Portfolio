@@ -21,7 +21,7 @@ const Header = () => {
                 <Menu className="w-5 h-5" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="top" className="h-full flex items-center justify-center">
+            <SheetContent side="top" className="h-full flex items-center justify-center bg-background/40 backdrop-blur-xl border-border/20">
               <nav className="flex flex-col gap-8 items-center">
                 <a href="#home" className="text-3xl md:text-4xl font-medium hover:text-primary transition-all hover:scale-110 duration-300">
                   Home
