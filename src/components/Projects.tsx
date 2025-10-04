@@ -37,6 +37,9 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 px-6">
       <div className="container mx-auto">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 text-center">
+          <span className="gold-text">Projects</span>
+        </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <ProjectCard

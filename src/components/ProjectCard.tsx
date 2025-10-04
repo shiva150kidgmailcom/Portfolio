@@ -48,20 +48,20 @@ const ProjectCard = ({ title, date, description, tags, imageSrc, delay = 0, gith
       </div>
 
       {(githubLink || liveLink) && (
-        <div className="flex gap-3">
+        <div className="flex flex-col sm:flex-row gap-3">
           {githubLink && (
-            <Button variant="outline" size="sm" className="flex-1" asChild>
+            <Button variant="outline" size="sm" className="flex-1 min-w-0" asChild>
               <a href={githubLink} target="_blank" rel="noopener noreferrer">
-                <Github className="w-4 h-4" />
-                View Code
+                <Github className="w-4 h-4 flex-shrink-0" />
+                <span className="truncate">View Code</span>
               </a>
             </Button>
           )}
           {liveLink && (
-            <Button variant="default" size="sm" className="flex-1" asChild>
+            <Button variant="default" size="sm" className="flex-1 min-w-0" asChild>
               <a href={liveLink} target="_blank" rel="noopener noreferrer">
-                <ExternalLink className="w-4 h-4" />
-                Live Demo
+                <ExternalLink className="w-4 h-4 flex-shrink-0" />
+                <span className="truncate">Live Demo</span>
               </a>
             </Button>
           )}
