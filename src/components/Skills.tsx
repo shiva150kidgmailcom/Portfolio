@@ -6,20 +6,28 @@ const Skills = () => {
     },
     {
       title: "Frontend",
-      skills: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"],
+      skills: ["JavaScript", "HTML5", "CSS3", "Tailwind CSS"],
     },
     {
       title: "Database",
-      skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB"],
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "Docker", "Maven", "Jenkins", "AWS", "Agile/Scrum"],
+      skills: ["Git", "GitHub", "Postman", "Docker", "Maven", "Jenkins", "Agile/Scrum"],
+    },
+    {
+      title: "Core Subjects",
+      skills: ["OOPS", "Computer Networks", "DSA", "DBMS"],
+    },
+    {
+      title: "Programming Languages",
+      skills: ["C", "Java"],
     },
   ];
 
   return (
-    <section id="skills" className="py-20 md:py-32 px-6 bg-secondary/30">
+    <section id="skills" className="py-12 md:py-16 px-6 bg-secondary/30">
       <div className="container mx-auto max-w-6xl">
         <div className="animate-fade-up">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-12 md:mb-16 text-center">

@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Download } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-32 px-6">
+    <section id="contact" className="py-12 md:py-16 px-6">
       <div className="container mx-auto max-w-4xl text-center">
         <div className="animate-fade-up">
           <h2 className="text-6xl md:text-7xl font-bold mb-8">
@@ -14,12 +14,20 @@ const Contact = () => {
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
             I'm always open to discussing new projects, opportunities, or partnerships. Feel free to reach out!
           </p>
-          <Button variant="outline" size="lg" className="mb-16" asChild>
-            <a href="mailto:dshivakumar2026@gmail.com">
-              <Mail className="w-5 h-5" />
-              Get in Touch
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
+            <Button variant="outline" size="lg" asChild>
+              <a href="mailto:dshivakumar2026@gmail.com">
+                <Mail className="w-5 h-5 mr-2" />
+                Get in Touch
+              </a>
+            </Button>
+            <Button variant="outline" size="lg" asChild>
+              <a href="https://drive.google.com/file/d/1avzaG88sZunM187ZRsSzfEpj7QcSMIOq/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <Download className="w-5 h-5 mr-2" />
+                Download Resume
+              </a>
+            </Button>
+          </div>
           
           <div className="flex justify-center gap-6 pt-8">
             <Button variant="ghost" size="icon" className="hover:scale-110 transition-transform" asChild>
