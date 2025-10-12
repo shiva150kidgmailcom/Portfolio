@@ -2,7 +2,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Backend",
-      skills: ["Java", "Spring Boot", "Spring MVC", "Hibernate", "RESTful APIs", "Microservices"],
+      skills: ["Java", "Spring Boot", "Spring MVC", "Hibernate", "RESTful APIs", "Microservices", "JEE", "JDBC", "JUnit", "JSP", "Data Access Object(DAO)"],
     },
     {
       title: "Frontend",
