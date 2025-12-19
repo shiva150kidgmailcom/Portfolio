@@ -6,13 +6,14 @@ import brandcraftImage from "@/assets/project-brandcraft.jpg";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      date: "January 2024",
-      description: "Full-stack application with Spring Boot backend and React frontend, featuring secure payment integration and real-time inventory management.",
-      tags: ["Java", "Spring Boot", "React"],
+      title: "QuickCart - Real-Time Grocery Ordering Platform",
+      date: "November 2025",
+      description: "Full-stack application with Node.js backend and React frontend, featuring secure payment integration and real-time inventory management.",
+      tags: ["Node.js", "Stripe", "React"],
       imageSrc: sportlyImage,
-      githubLink: "https://github.com/shiva150kidgmailcom",
-      liveLink: "https://github.com/shiva150kidgmailcom",
+      githubLink: "https://github.com/shiva150kidgmailcom/Quickcart",
+      liveLink(Frontend): "https://quickcart-frontend-pi.vercel.app/",
+      liveLink(Admin Panel): "https://quickcart-admin.vercel.app/list",
     },
     {
       title: "Task Management System",
