@@ -22,7 +22,7 @@ const Contact = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg" asChild>
-              <a href="https://drive.google.com/file/d/1fjFm4jU5RrW7IK5JI7HLSZISyw65Qzl5/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1ETYwFzGo-gWri71gF17t2hr3gMSIDlnO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Download className="w-5 h-5 mr-2" />
                 Download Resume
               </a>
