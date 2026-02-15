@@ -2,6 +2,7 @@ import ProjectCard from "./ProjectCard";
 import sportlyImage from "@/assets/project-sportly.jpg";
 import techflowImage from "@/assets/project-techflow.jpg";
 import brandcraftImage from "@/assets/project-brandcraft.jpg";
+import quickcart from "@assets/project-Quickcart.jpg";
 
 const Projects = () => {
   const projects = [
@@ -10,7 +11,7 @@ const Projects = () => {
       date: "November 2025",
       description: "Full-stack application with Node.js backend and React frontend, featuring secure payment integration and real-time inventory management.",
       tags: ["Node.js", "Stripe", "React"],
-      imageSrc: sportlyImage,
+      imageSrc: quickcart,
       githubLink: "https://github.com/shiva150kidgmailcom/Quickcart",
       frontendLiveLink: "https://quickcart-frontend-pi.vercel.app/",
       adminLiveLink: "https://quickcart-admin.vercel.app/list",
