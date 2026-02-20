@@ -13,8 +13,8 @@ const Projects = () => {
       tags: ["Node.js", "Stripe", "React"],
       imageSrc: quickcart,
       githubLink: "https://github.com/shiva150kidgmailcom/Quickcart",
-      frontendLiveLink: "https://quickcart-frontend-pi.vercel.app/",
-      adminLiveLink: "https://quickcart-admin.vercel.app/list",
+      // frontendLiveLink: "https://quickcart-frontend-pi.vercel.app/",
+      liveLink: "https://quickcart-admin.vercel.app/list",
     },
     {
       title: "Task Management System",
