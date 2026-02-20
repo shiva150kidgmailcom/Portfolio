@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: "VocalDeFi - AI Powered Voice Commands for Crypto Trading",
-      date: "March 2024",
+      date: "March 2025",
       description: "Built a decentralized crypto trading platform supporting 4+ languages and reducing user input time by 70%.",
       tags: ["Node.js", "Express.js", "Supabase"],
       imageSrc: techflowImage,
