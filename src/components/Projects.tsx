@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard";
 import sportlyImage from "@/assets/project-sportly.jpg";
 import techflowImage from "@/assets/project-techflow.jpg";
 import brandcraftImage from "@/assets/project-brandcraft.jpg";
-import quickcart from "@assets/project-Quickcart.jpg";
+// import quickcart from "@assets/project-Quickcart.jpg";
 
 const Projects = () => {
   const projects = [
