@@ -15,7 +15,7 @@ const Projects = () => {
       imageSrc: quickcartImage,
       githubLink: "https://github.com/shiva150kidgmailcom/Quickcart",
       // frontendLiveLink: "https://quickcart-frontend-pi.vercel.app/",
-      liveLink: "https://quickcart-admin.vercel.app/list",
+      liveLink: "https://quickcart-frontend-pi.vercel.app/",
     },
     {
       title: "Task Management System",
