@@ -20,10 +20,10 @@ const Projects = () => {
     {
       title: "Task Management System",
       date: "March 2024",
-      description: "RESTful API-driven task tracker with role-based authentication, allowing teams to collaborate and track project progress efficiently.",
-      tags: ["Java", "MySQL", "REST API"],
+      description: "Built a decentralized crypto trading platform supporting 4+ languages and reducing user input time by 70%.",
+      tags: ["Node.js", "Express.js", "Supabase"],
       imageSrc: techflowImage,
-      githubLink: "https://github.com/shiva150kidgmailcom",
+      githubLink: "https://github.com/Ankit74115/EchoFI",
       liveLink: "https://github.com/shiva150kidgmailcom",
     },
     {
