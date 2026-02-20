@@ -22,7 +22,7 @@ const Skills = () => {
     },
     {
       title: "Programming Languages",
-      skills: ["C", "Java"],
+      skills: ["C", "Java", "C++"],
     },
   ];
 
