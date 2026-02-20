@@ -18,7 +18,7 @@ const Projects = () => {
       liveLink: "https://quickcart-frontend-pi.vercel.app/",
     },
     {
-      title: "Task Management System",
+      title: "VocalDeFi - AI Powered Voice Commands for Crypto Trading",
       date: "March 2024",
       description: "Built a decentralized crypto trading platform supporting 4+ languages and reducing user input time by 70%.",
       tags: ["Node.js", "Express.js", "Supabase"],
