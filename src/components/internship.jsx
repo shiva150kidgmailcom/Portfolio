@@ -1,4 +1,4 @@
-import InternshipCard from "./internshipCard";
+import InternshipCard from "./InternshipCard";
 import fullstackImage from "@/assets/intern-fullstack.jpg";
 import backendImage from "@/assets/intern-backend.jpg"; // add a new image
 

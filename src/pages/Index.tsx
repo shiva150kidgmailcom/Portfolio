@@ -6,7 +6,7 @@ import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Internship from "@/components/internship";
+import Internship from "@/components/Internship";
 
 const Index = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
