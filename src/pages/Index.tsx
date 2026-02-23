@@ -6,7 +6,7 @@ import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Internship from "@/components/Internship";
+import Internship from "../components/Internship";
 
 const Index = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -32,13 +32,13 @@ const Index = () => {
     <div className="min-h-screen bg-background transition-colors duration-300">
       <Header />
       <main>
-          <Hero />
-          <Projects />
-          <Skills />
-          <About />
-          <Internship />   
-          <Contact />
-        </main>
+        <Hero />
+        <Projects />
+        <Skills />
+        <About />
+        <Internship />
+        <Contact />
+      </main>
       <Footer />
       <button
         onClick={toggleTheme}

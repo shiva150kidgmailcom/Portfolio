@@ -2,7 +2,7 @@ import InternshipCard from "./InternshipCard";
 import fullstackImage from "@/assets/intern-fullstack.jpg";
 import backendImage from "@/assets/intern-backend.jpg"; // add a new image
 
-const Internships = () => {
+const Internship = () => {
     const internships = [
         {
             title: "Full Stack Development Intern",
@@ -48,4 +48,4 @@ const Internships = () => {
     );
 };
 
-export default Internships;
+export default Internship;
