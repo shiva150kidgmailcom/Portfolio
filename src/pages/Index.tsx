@@ -6,6 +6,7 @@ import Skills from "@/components/Skills";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Internship from "@/components/internship";
 
 const Index = () => {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -14,7 +15,7 @@ const Index = () => {
     // Check for saved theme preference or default to light mode
     const savedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    
+
     const initialTheme = savedTheme || (prefersDark ? "dark" : "light");
     setTheme(initialTheme);
     document.documentElement.classList.toggle("dark", initialTheme === "dark");
@@ -31,12 +32,13 @@ const Index = () => {
     <div className="min-h-screen bg-background transition-colors duration-300">
       <Header />
       <main>
-        <Hero />
-        <Projects />
-        <Skills />
-        <About />
-        <Contact />
-      </main>
+          <Hero />
+          <Projects />
+          <Skills />
+          <About />
+          <Internship />   
+          <Contact />
+        </main>
       <Footer />
       <button
         onClick={toggleTheme}
@@ -48,5 +50,7 @@ const Index = () => {
     </div>
   );
 };
+
+
 
 export default Index;
